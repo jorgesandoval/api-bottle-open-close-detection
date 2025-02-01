@@ -1,0 +1,28 @@
+2025-02-01 05:10:14,937 - INFO - Found 36072 training images and 3864 validation images
+2025-02-01 05:10:14,938 - INFO - Starting training on device: cpu
+2025-02-01 05:10:14,938 - INFO - Training config: {'epochs': 50, 'batch_size': 32, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'num_workers': 4, 'log_interval': 10, 'save_interval': 5, 'early_stopping_patience': 5}
+2025-02-01 05:10:14,938 - INFO - 
+Epoch 1/50
+2025-02-01 07:01:58,838 - INFO - Train Loss: 0.3211 | Train Acc: 85.64%
+2025-02-01 07:01:58,839 - INFO - Val Loss: 0.2270 | Val Acc: 89.93%
+2025-02-01 07:01:59,303 - INFO - Saved new best model with validation accuracy: 89.93%
+2025-02-01 07:01:59,303 - INFO - 
+Epoch 2/50
+2025-02-01 09:00:48,496 - INFO - Train Loss: 0.2479 | Train Acc: 89.63%
+2025-02-01 09:00:48,497 - INFO - Val Loss: 0.2068 | Val Acc: 90.84%
+2025-02-01 09:00:49,425 - INFO - Saved new best model with validation accuracy: 90.84%
+2025-02-01 09:00:49,425 - INFO - 
+Epoch 3/50
+2025-02-01 10:51:53,493 - INFO - Train Loss: 0.2138 | Train Acc: 91.13%
+2025-02-01 10:51:53,494 - INFO - Val Loss: 0.1392 | Val Acc: 94.69%
+2025-02-01 10:51:54,006 - INFO - Saved new best model with validation accuracy: 94.69%
+2025-02-01 10:51:54,006 - INFO - 
+Epoch 4/50
+2025-02-01 12:50:12,228 - INFO - Train Loss: 0.1826 | Train Acc: 92.53%
+2025-02-01 12:50:12,230 - INFO - Val Loss: 0.1432 | Val Acc: 93.97%
+2025-02-01 12:50:12,230 - INFO - 
+Epoch 5/50
+2025-02-01 14:52:11,211 - INFO - Train Loss: 0.1625 | Train Acc: 93.32%
+2025-02-01 14:52:11,212 - INFO - Val Loss: 0.1305 | Val Acc: 94.38%
+2025-02-01 14:52:11,489 - INFO - 
+Epoch 6/50

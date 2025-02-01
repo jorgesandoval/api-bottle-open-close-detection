@@ -1,0 +1,9 @@
+2025-02-01 05:01:49,949 - INFO - Logging setup completed successfully
+2025-02-01 05:01:49,954 - INFO - Found 3640 images in /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/model/data/raw/open
+2025-02-01 05:01:49,955 - INFO - Processing train split for open class
+2025-02-01 05:04:09,040 - INFO - Processing val split for open class
+2025-02-01 05:04:23,398 - INFO - Processing test split for open class
+2025-02-01 05:04:37,825 - INFO - Found 4949 images in /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/model/data/raw/closed
+2025-02-01 05:04:37,827 - INFO - Processing train split for closed class
+2025-02-01 05:08:01,155 - INFO - Processing val split for closed class
+2025-02-01 05:08:20,381 - INFO - Processing test split for closed class

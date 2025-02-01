@@ -1,0 +1,35 @@
+# model/src/config.yaml
+data:
+  base_dir: 'model/data'
+  train_dir: 'model/data/augmented/train'
+  val_dir: 'model/data/augmented/val'
+  test_dir: 'model/data/augmented/test'
+
+model:
+  name: 'resnet18'  # Changed from resnet50
+  pretrained: true
+  num_classes: 2
+  save_dir: 'model/checkpoints'
+
+training:
+  epochs: 30  # Reduced from 50
+  batch_size: 128  # Increased
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  num_workers: 4
+  log_interval: 10
+  save_interval: 5
+  early_stopping_patience: 5  # Reduced patience
+  early_stopping_threshold: 0.01  # Stop if improvement < 1%
+
+augmentation:
+  num_augmentations: 5
+  top_crop_percent: 0.3
+  rotation_range: [-10, 10]
+  brightness_range: [0.8, 1.2]
+  contrast_range: [0.8, 1.2]
+  horizontal_flip_prob: 0.5
+
+logging:
+  level: 'INFO'
+  save_dir: 'model/logs'

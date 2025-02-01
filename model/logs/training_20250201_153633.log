@@ -1,0 +1,5 @@
+2025-02-01 15:36:34,529 - INFO - Found 36072 training images and 3864 validation images
+2025-02-01 15:36:34,529 - INFO - Starting training on device: cpu
+2025-02-01 15:36:34,529 - INFO - Training config: {'epochs': 50, 'batch_size': 64, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'num_workers': 4, 'log_interval': 10, 'save_interval': 5, 'early_stopping_patience': 5}
+2025-02-01 15:36:34,529 - INFO - 
+Epoch 1/50
