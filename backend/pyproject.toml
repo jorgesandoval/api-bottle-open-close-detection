@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bottle-classifier"
+version = "0.1"
+description = "Bottle Open/Close Classification API"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=2.3.3",
+    "flask-cors>=4.0.0",
+    "Werkzeug>=2.3.7",
+    "python-dotenv>=1.0.0",
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "numpy>=1.24.3",
+    "Pillow>=10.0.0",
+    "PyYAML>=6.0.1",
+    "python-json-logger>=2.0.7"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["app"]
+
+[tool.pytest.ini_options]
+addopts = "-v"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::UserWarning",
+    "ignore:.*'imghdr' is deprecated.*:DeprecationWarning",
+    "ignore:.*parameter 'pretrained' is deprecated.*:UserWarning",
+    "ignore:.*Arguments other than a weight enum.*:UserWarning"
+]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+log_cli = true
+log_cli_level = "INFO"

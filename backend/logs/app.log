@@ -1,0 +1,392 @@
+2025-02-01 19:14:45,566 - root - INFO - Logging system initialized
+2025-02-01 19:14:45,566 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 19:14:45,567 - app.main - INFO - Application startup complete
+2025-02-01 19:14:45,570 - root - INFO - Logging system initialized
+2025-02-01 19:14:45,570 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 19:14:45,571 - app.main - INFO - Application startup complete
+2025-02-01 19:14:47,352 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-01 19:14:47,354 - root - INFO - Logging system initialized
+2025-02-01 19:14:47,354 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 19:14:47,354 - app.main - INFO - Application startup complete
+2025-02-01 19:14:47,355 - app.routes.classifier - ERROR - No image file in request
+2025-02-01 19:14:47,355 - root - INFO - Logging system initialized
+2025-02-01 19:14:47,355 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 19:14:47,356 - app.main - INFO - Application startup complete
+2025-02-01 19:14:47,356 - app.utils.validators - WARNING - Invalid file extension: test.txt
+2025-02-01 19:14:47,356 - app.routes.classifier - ERROR - Invalid image format: test.txt
+2025-02-01 19:14:47,357 - root - INFO - Logging system initialized
+2025-02-01 19:14:47,357 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 19:14:47,357 - app.main - INFO - Application startup complete
+2025-02-01 19:14:47,358 - app.utils.validators - WARNING - Invalid image content for file: empty.jpg
+2025-02-01 19:14:47,358 - app.routes.classifier - ERROR - Invalid image format: empty.jpg
+2025-02-01 19:14:47,359 - root - INFO - Logging system initialized
+2025-02-01 19:14:47,359 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 19:14:47,359 - app.main - INFO - Application startup complete
+2025-02-01 19:14:47,359 - app.main - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-01 19:14:47,360 - root - INFO - Logging system initialized
+2025-02-01 19:14:47,360 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 19:14:47,360 - app.main - INFO - Application startup complete
+2025-02-01 19:14:47,361 - root - INFO - Logging system initialized
+2025-02-01 19:14:47,361 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 19:14:47,362 - app.main - INFO - Application startup complete
+2025-02-01 19:14:47,472 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-01 23:34:40,115 - root - INFO - Logging system initialized
+2025-02-01 23:34:40,115 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:34:40,115 - app.main - INFO - Application startup complete
+2025-02-01 23:34:40,121 - root - INFO - Logging system initialized
+2025-02-01 23:34:40,121 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:34:40,121 - app.main - INFO - Application startup complete
+2025-02-01 23:34:40,331 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-01 23:34:40,332 - root - INFO - Logging system initialized
+2025-02-01 23:34:40,332 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:34:40,332 - app.main - INFO - Application startup complete
+2025-02-01 23:34:40,333 - app.routes.classifier - ERROR - No image file in request
+2025-02-01 23:34:40,334 - root - INFO - Logging system initialized
+2025-02-01 23:34:40,334 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:34:40,335 - app.main - INFO - Application startup complete
+2025-02-01 23:34:40,335 - app.utils.validators - WARNING - Invalid file extension: test.txt
+2025-02-01 23:34:40,335 - app.routes.classifier - ERROR - Invalid image format: test.txt
+2025-02-01 23:34:40,336 - root - INFO - Logging system initialized
+2025-02-01 23:34:40,336 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:34:40,336 - app.main - INFO - Application startup complete
+2025-02-01 23:34:40,380 - app.utils.validators - WARNING - Invalid or corrupted image file: cannot identify image file <_io.BytesIO object at 0x112652b10>
+2025-02-01 23:34:40,380 - app.routes.classifier - ERROR - Invalid image format: empty.jpg
+2025-02-01 23:34:40,381 - root - INFO - Logging system initialized
+2025-02-01 23:34:40,381 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:34:40,381 - app.main - INFO - Application startup complete
+2025-02-01 23:34:40,381 - app.main - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-01 23:34:40,382 - root - INFO - Logging system initialized
+2025-02-01 23:34:40,382 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:34:40,382 - app.main - INFO - Application startup complete
+2025-02-01 23:34:40,383 - root - INFO - Logging system initialized
+2025-02-01 23:34:40,383 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:34:40,384 - app.main - INFO - Application startup complete
+2025-02-01 23:34:40,452 - app.utils.validators - WARNING - Image dimensions too large: 5000x5000
+2025-02-01 23:34:40,452 - app.routes.classifier - ERROR - Invalid image format: large.jpg
+2025-02-01 23:38:20,938 - root - INFO - Logging system initialized
+2025-02-01 23:38:20,938 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:20,938 - app.main - INFO - Application startup complete
+2025-02-01 23:38:20,942 - root - INFO - Logging system initialized
+2025-02-01 23:38:20,942 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:20,942 - app.main - INFO - Application startup complete
+2025-02-01 23:38:21,058 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-01 23:38:21,059 - root - INFO - Logging system initialized
+2025-02-01 23:38:21,059 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:21,060 - app.main - INFO - Application startup complete
+2025-02-01 23:38:21,060 - app.routes.classifier - ERROR - No image file in request
+2025-02-01 23:38:21,061 - root - INFO - Logging system initialized
+2025-02-01 23:38:21,061 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:21,062 - app.main - INFO - Application startup complete
+2025-02-01 23:38:21,062 - app.utils.validators - WARNING - Invalid file extension: test.txt
+2025-02-01 23:38:21,062 - app.routes.classifier - ERROR - Invalid image format: test.txt
+2025-02-01 23:38:21,063 - root - INFO - Logging system initialized
+2025-02-01 23:38:21,063 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:21,064 - app.main - INFO - Application startup complete
+2025-02-01 23:38:21,075 - app.utils.validators - WARNING - Invalid or corrupted image file: cannot identify image file <_io.BytesIO object at 0x11f5ca700>
+2025-02-01 23:38:21,075 - app.routes.classifier - ERROR - Invalid image format: empty.jpg
+2025-02-01 23:38:21,076 - root - INFO - Logging system initialized
+2025-02-01 23:38:21,076 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:21,076 - app.main - INFO - Application startup complete
+2025-02-01 23:38:21,076 - app.main - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-01 23:38:21,077 - root - INFO - Logging system initialized
+2025-02-01 23:38:21,077 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:21,078 - app.main - INFO - Application startup complete
+2025-02-01 23:38:21,079 - root - INFO - Logging system initialized
+2025-02-01 23:38:21,079 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:21,079 - app.main - INFO - Application startup complete
+2025-02-01 23:38:21,134 - app.utils.validators - WARNING - Image dimensions too large: 5000x5000
+2025-02-01 23:38:21,134 - app.routes.classifier - ERROR - Invalid image format: large.jpg
+2025-02-01 23:38:47,418 - root - INFO - Logging system initialized
+2025-02-01 23:38:47,418 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:47,419 - app.main - INFO - Application startup complete
+2025-02-01 23:38:47,422 - root - INFO - Logging system initialized
+2025-02-01 23:38:47,422 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:47,423 - app.main - INFO - Application startup complete
+2025-02-01 23:38:47,538 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-01 23:38:47,540 - root - INFO - Logging system initialized
+2025-02-01 23:38:47,540 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:47,540 - app.main - INFO - Application startup complete
+2025-02-01 23:38:47,541 - app.routes.classifier - ERROR - No image file in request
+2025-02-01 23:38:47,542 - root - INFO - Logging system initialized
+2025-02-01 23:38:47,542 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:47,542 - app.main - INFO - Application startup complete
+2025-02-01 23:38:47,543 - app.utils.validators - WARNING - Invalid file extension: test.txt
+2025-02-01 23:38:47,543 - app.routes.classifier - ERROR - Invalid image format: test.txt
+2025-02-01 23:38:47,544 - root - INFO - Logging system initialized
+2025-02-01 23:38:47,544 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:47,544 - app.main - INFO - Application startup complete
+2025-02-01 23:38:47,555 - app.utils.validators - WARNING - Invalid or corrupted image file: cannot identify image file <_io.BytesIO object at 0x1123caac0>
+2025-02-01 23:38:47,555 - app.routes.classifier - ERROR - Invalid image format: empty.jpg
+2025-02-01 23:38:47,556 - root - INFO - Logging system initialized
+2025-02-01 23:38:47,556 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:47,557 - app.main - INFO - Application startup complete
+2025-02-01 23:38:47,557 - app.main - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-01 23:38:47,558 - root - INFO - Logging system initialized
+2025-02-01 23:38:47,558 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:47,558 - app.main - INFO - Application startup complete
+2025-02-01 23:38:47,559 - root - INFO - Logging system initialized
+2025-02-01 23:38:47,559 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:38:47,559 - app.main - INFO - Application startup complete
+2025-02-01 23:38:47,613 - app.utils.validators - WARNING - Image dimensions too large: 5000x5000
+2025-02-01 23:38:47,613 - app.routes.classifier - ERROR - Invalid image format: large.jpg
+2025-02-01 23:48:29,719 - root - INFO - Logging system initialized
+2025-02-01 23:48:29,720 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:48:29,720 - app.main - INFO - Application startup complete
+2025-02-01 23:48:29,725 - root - INFO - Logging system initialized
+2025-02-01 23:48:29,725 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:48:29,725 - app.main - INFO - Application startup complete
+2025-02-01 23:48:29,918 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-01 23:48:29,920 - root - INFO - Logging system initialized
+2025-02-01 23:48:29,920 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:48:29,920 - app.main - INFO - Application startup complete
+2025-02-01 23:48:29,921 - app.routes.classifier - ERROR - No image file in request
+2025-02-01 23:48:29,922 - root - INFO - Logging system initialized
+2025-02-01 23:48:29,922 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:48:29,922 - app.main - INFO - Application startup complete
+2025-02-01 23:48:29,923 - app.utils.validators - WARNING - Invalid file extension: test.txt
+2025-02-01 23:48:29,923 - app.routes.classifier - ERROR - Invalid image format: test.txt
+2025-02-01 23:48:29,924 - root - INFO - Logging system initialized
+2025-02-01 23:48:29,924 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:48:29,924 - app.main - INFO - Application startup complete
+2025-02-01 23:48:29,966 - app.utils.validators - WARNING - Invalid or corrupted image file: cannot identify image file <_io.BytesIO object at 0x120e3ad90>
+2025-02-01 23:48:29,966 - app.routes.classifier - ERROR - Invalid image format: empty.jpg
+2025-02-01 23:48:29,967 - root - INFO - Logging system initialized
+2025-02-01 23:48:29,967 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:48:29,968 - app.main - INFO - Application startup complete
+2025-02-01 23:48:29,968 - app.main - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-01 23:48:29,969 - root - INFO - Logging system initialized
+2025-02-01 23:48:29,969 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:48:29,969 - app.main - INFO - Application startup complete
+2025-02-01 23:48:29,970 - root - INFO - Logging system initialized
+2025-02-01 23:48:29,970 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:48:29,970 - app.main - INFO - Application startup complete
+2025-02-01 23:48:30,020 - app.utils.validators - WARNING - Image dimensions too large: 5000x5000
+2025-02-01 23:48:30,020 - app.routes.classifier - ERROR - Invalid image format: large.jpg
+2025-02-01 23:51:18,081 - root - INFO - Logging system initialized
+2025-02-01 23:51:18,081 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:18,081 - app.main - INFO - Application startup complete
+2025-02-01 23:51:18,085 - root - INFO - Logging system initialized
+2025-02-01 23:51:18,085 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:18,085 - app.main - INFO - Application startup complete
+2025-02-01 23:51:18,199 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-01 23:51:18,200 - root - INFO - Logging system initialized
+2025-02-01 23:51:18,201 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:18,201 - app.main - INFO - Application startup complete
+2025-02-01 23:51:18,201 - app.routes.classifier - ERROR - No image file in request
+2025-02-01 23:51:18,202 - root - INFO - Logging system initialized
+2025-02-01 23:51:18,202 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:18,203 - app.main - INFO - Application startup complete
+2025-02-01 23:51:18,203 - app.utils.validators - WARNING - Invalid file extension: test.txt
+2025-02-01 23:51:18,203 - app.routes.classifier - ERROR - Invalid image format: test.txt
+2025-02-01 23:51:18,204 - root - INFO - Logging system initialized
+2025-02-01 23:51:18,204 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:18,205 - app.main - INFO - Application startup complete
+2025-02-01 23:51:18,216 - app.utils.validators - WARNING - Invalid or corrupted image file: cannot identify image file <_io.BytesIO object at 0x112a12f20>
+2025-02-01 23:51:18,216 - app.routes.classifier - ERROR - Invalid image format: empty.jpg
+2025-02-01 23:51:18,217 - root - INFO - Logging system initialized
+2025-02-01 23:51:18,217 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:18,217 - app.main - INFO - Application startup complete
+2025-02-01 23:51:18,217 - app.main - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-01 23:51:18,218 - root - INFO - Logging system initialized
+2025-02-01 23:51:18,218 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:18,219 - app.main - INFO - Application startup complete
+2025-02-01 23:51:18,220 - root - INFO - Logging system initialized
+2025-02-01 23:51:18,220 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:18,220 - app.main - INFO - Application startup complete
+2025-02-01 23:51:18,274 - app.utils.validators - WARNING - Image dimensions too large: 5000x5000
+2025-02-01 23:51:18,274 - app.routes.classifier - ERROR - Invalid image format: large.jpg
+2025-02-01 23:51:53,974 - root - INFO - Logging system initialized
+2025-02-01 23:51:53,974 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:53,974 - app.main - INFO - Application startup complete
+2025-02-01 23:51:53,978 - root - INFO - Logging system initialized
+2025-02-01 23:51:53,978 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:53,978 - app.main - INFO - Application startup complete
+2025-02-01 23:51:54,092 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-01 23:51:54,094 - root - INFO - Logging system initialized
+2025-02-01 23:51:54,094 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:54,094 - app.main - INFO - Application startup complete
+2025-02-01 23:51:54,095 - app.routes.classifier - ERROR - No image file in request
+2025-02-01 23:51:54,096 - root - INFO - Logging system initialized
+2025-02-01 23:51:54,096 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:54,096 - app.main - INFO - Application startup complete
+2025-02-01 23:51:54,097 - app.utils.validators - WARNING - Invalid file extension: test.txt
+2025-02-01 23:51:54,097 - app.routes.classifier - ERROR - Invalid image format: test.txt
+2025-02-01 23:51:54,098 - root - INFO - Logging system initialized
+2025-02-01 23:51:54,098 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:54,098 - app.main - INFO - Application startup complete
+2025-02-01 23:51:54,110 - app.utils.validators - WARNING - Invalid or corrupted image file: cannot identify image file <_io.BytesIO object at 0x1140cac50>
+2025-02-01 23:51:54,110 - app.routes.classifier - ERROR - Invalid image format: empty.jpg
+2025-02-01 23:51:54,111 - root - INFO - Logging system initialized
+2025-02-01 23:51:54,111 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:54,111 - app.main - INFO - Application startup complete
+2025-02-01 23:51:54,111 - app.main - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-01 23:51:54,112 - root - INFO - Logging system initialized
+2025-02-01 23:51:54,112 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:54,112 - app.main - INFO - Application startup complete
+2025-02-01 23:51:54,113 - root - INFO - Logging system initialized
+2025-02-01 23:51:54,113 - app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:51:54,114 - app.main - INFO - Application startup complete
+2025-02-01 23:51:54,168 - app.utils.validators - WARNING - Image dimensions too large: 5000x5000
+2025-02-01 23:51:54,168 - app.routes.classifier - ERROR - Invalid image format: large.jpg
+2025-02-01 23:55:15,975 - root - INFO - Logging system initialized
+2025-02-01 23:55:15,975 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:55:15,975 - backend.src.app.main - INFO - Application startup complete
+2025-02-01 23:55:15,979 - root - INFO - Logging system initialized
+2025-02-01 23:55:15,979 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:55:15,979 - backend.src.app.main - INFO - Application startup complete
+2025-02-01 23:55:16,094 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-01 23:55:16,095 - root - INFO - Logging system initialized
+2025-02-01 23:55:16,096 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:55:16,096 - backend.src.app.main - INFO - Application startup complete
+2025-02-01 23:55:16,097 - app.routes.classifier - ERROR - No image file in request
+2025-02-01 23:55:16,097 - root - INFO - Logging system initialized
+2025-02-01 23:55:16,097 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:55:16,098 - backend.src.app.main - INFO - Application startup complete
+2025-02-01 23:55:16,098 - app.utils.validators - WARNING - Invalid file extension: test.txt
+2025-02-01 23:55:16,099 - app.routes.classifier - ERROR - Invalid image format: test.txt
+2025-02-01 23:55:16,099 - root - INFO - Logging system initialized
+2025-02-01 23:55:16,099 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:55:16,100 - backend.src.app.main - INFO - Application startup complete
+2025-02-01 23:55:16,151 - app.utils.validators - WARNING - Invalid or corrupted image file: cannot identify image file <_io.BytesIO object at 0x1123f6de0>
+2025-02-01 23:55:16,151 - app.routes.classifier - ERROR - Invalid image format: empty.jpg
+2025-02-01 23:55:16,152 - root - INFO - Logging system initialized
+2025-02-01 23:55:16,152 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:55:16,153 - backend.src.app.main - INFO - Application startup complete
+2025-02-01 23:55:16,153 - backend.src.app.main - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-01 23:55:16,154 - root - INFO - Logging system initialized
+2025-02-01 23:55:16,154 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:55:16,154 - backend.src.app.main - INFO - Application startup complete
+2025-02-01 23:55:16,155 - root - INFO - Logging system initialized
+2025-02-01 23:55:16,155 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-01 23:55:16,156 - backend.src.app.main - INFO - Application startup complete
+2025-02-01 23:55:16,208 - app.utils.validators - WARNING - Image dimensions too large: 5000x5000
+2025-02-01 23:55:16,209 - app.routes.classifier - ERROR - Invalid image format: large.jpg
+2025-02-02 00:00:33,952 - root - INFO - Logging system initialized
+2025-02-02 00:00:33,952 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:33,953 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:33,956 - root - INFO - Logging system initialized
+2025-02-02 00:00:33,957 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:33,957 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:34,071 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-02 00:00:34,073 - root - INFO - Logging system initialized
+2025-02-02 00:00:34,073 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:34,073 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:34,074 - app.routes.classifier - ERROR - No image file in request
+2025-02-02 00:00:34,075 - root - INFO - Logging system initialized
+2025-02-02 00:00:34,075 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:34,075 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:34,076 - app.utils.validators - WARNING - Invalid file extension: test.txt
+2025-02-02 00:00:34,076 - app.routes.classifier - ERROR - Invalid image format: test.txt
+2025-02-02 00:00:34,076 - root - INFO - Logging system initialized
+2025-02-02 00:00:34,076 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:34,077 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:34,088 - app.utils.validators - WARNING - Invalid or corrupted image file: cannot identify image file <_io.BytesIO object at 0x114a55530>
+2025-02-02 00:00:34,088 - app.routes.classifier - ERROR - Invalid image format: empty.jpg
+2025-02-02 00:00:34,089 - root - INFO - Logging system initialized
+2025-02-02 00:00:34,089 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:34,089 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:34,090 - backend.src.app.main - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-02 00:00:34,090 - root - INFO - Logging system initialized
+2025-02-02 00:00:34,090 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:34,091 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:34,092 - root - INFO - Logging system initialized
+2025-02-02 00:00:34,092 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:34,092 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:34,146 - app.utils.validators - WARNING - Image dimensions too large: 5000x5000
+2025-02-02 00:00:34,146 - app.routes.classifier - ERROR - Invalid image format: large.jpg
+2025-02-02 00:00:34,398 - app.services.model_service - INFO - Model loaded successfully from /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/backend/src/app/models/best_model.pth
+2025-02-02 00:00:34,399 - app.services.model_service - INFO - Model service initialized using device: mps
+2025-02-02 00:00:34,615 - app.services.model_service - INFO - Model loaded successfully from /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/backend/src/app/models/best_model.pth
+2025-02-02 00:00:34,615 - app.services.model_service - INFO - Model service initialized using device: mps
+2025-02-02 00:00:34,835 - app.services.model_service - INFO - Model loaded successfully from /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/backend/src/app/models/best_model.pth
+2025-02-02 00:00:34,835 - app.services.model_service - INFO - Model service initialized using device: mps
+2025-02-02 00:00:35,061 - app.services.model_service - INFO - Model loaded successfully from /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/backend/src/app/models/best_model.pth
+2025-02-02 00:00:35,061 - app.services.model_service - INFO - Model service initialized using device: mps
+2025-02-02 00:00:35,304 - app.services.model_service - INFO - Model loaded successfully from /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/backend/src/app/models/best_model.pth
+2025-02-02 00:00:35,304 - app.services.model_service - INFO - Model service initialized using device: mps
+2025-02-02 00:00:35,305 - app.services.preprocessor - ERROR - Error preprocessing image: cannot identify image file <_io.BytesIO object at 0x115498d60>
+2025-02-02 00:00:35,305 - app.services.model_service - ERROR - Error during prediction: cannot identify image file <_io.BytesIO object at 0x115498d60>
+2025-02-02 00:00:53,070 - root - INFO - Logging system initialized
+2025-02-02 00:00:53,070 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:53,070 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:53,074 - root - INFO - Logging system initialized
+2025-02-02 00:00:53,074 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:53,074 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:53,189 - app.routes.classifier - INFO - Successfully classified image: open (0.84)
+2025-02-02 00:00:53,190 - root - INFO - Logging system initialized
+2025-02-02 00:00:53,190 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:53,191 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:53,191 - app.routes.classifier - ERROR - No image file in request
+2025-02-02 00:00:53,192 - root - INFO - Logging system initialized
+2025-02-02 00:00:53,192 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:53,192 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:53,193 - app.utils.validators - WARNING - Invalid file extension: test.txt
+2025-02-02 00:00:53,193 - app.routes.classifier - ERROR - Invalid image format: test.txt
+2025-02-02 00:00:53,194 - root - INFO - Logging system initialized
+2025-02-02 00:00:53,194 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:53,194 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:53,206 - app.utils.validators - WARNING - Invalid or corrupted image file: cannot identify image file <_io.BytesIO object at 0x10e2356c0>
+2025-02-02 00:00:53,206 - app.routes.classifier - ERROR - Invalid image format: empty.jpg
+2025-02-02 00:00:53,207 - root - INFO - Logging system initialized
+2025-02-02 00:00:53,207 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:53,207 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:53,207 - backend.src.app.main - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-02 00:00:53,208 - root - INFO - Logging system initialized
+2025-02-02 00:00:53,208 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:53,208 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:53,210 - root - INFO - Logging system initialized
+2025-02-02 00:00:53,210 - backend.src.app.main - INFO - Starting Bottle Classifier API...
+2025-02-02 00:00:53,210 - backend.src.app.main - INFO - Application startup complete
+2025-02-02 00:00:53,263 - app.utils.validators - WARNING - Image dimensions too large: 5000x5000
+2025-02-02 00:00:53,264 - app.routes.classifier - ERROR - Invalid image format: large.jpg
+2025-02-02 00:00:53,516 - app.services.model_service - INFO - Model loaded successfully from /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/backend/src/app/models/best_model.pth
+2025-02-02 00:00:53,516 - app.services.model_service - INFO - Model service initialized using device: mps
+2025-02-02 00:00:53,732 - app.services.model_service - INFO - Model loaded successfully from /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/backend/src/app/models/best_model.pth
+2025-02-02 00:00:53,732 - app.services.model_service - INFO - Model service initialized using device: mps
+2025-02-02 00:00:53,950 - app.services.model_service - INFO - Model loaded successfully from /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/backend/src/app/models/best_model.pth
+2025-02-02 00:00:53,950 - app.services.model_service - INFO - Model service initialized using device: mps
+2025-02-02 00:00:54,182 - app.services.model_service - INFO - Model loaded successfully from /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/backend/src/app/models/best_model.pth
+2025-02-02 00:00:54,182 - app.services.model_service - INFO - Model service initialized using device: mps
+2025-02-02 00:00:54,432 - app.services.model_service - INFO - Model loaded successfully from /Users/jorgesandoval/Documents/Code/api-bottle-open-close-detection/backend/src/app/models/best_model.pth
+2025-02-02 00:00:54,432 - app.services.model_service - INFO - Model service initialized using device: mps
+2025-02-02 00:00:54,432 - app.services.preprocessor - ERROR - Error preprocessing image: cannot identify image file <_io.BytesIO object at 0x11afc3b50>
+2025-02-02 00:00:54,433 - app.services.model_service - ERROR - Error during prediction: cannot identify image file <_io.BytesIO object at 0x11afc3b50>
+2025-02-02 03:34:16,260 - root - INFO - Logging system initialized
+2025-02-02 03:34:16,260 - __main__ - INFO - Starting Bottle Classifier API...
+2025-02-02 03:34:16,261 - __main__ - INFO - Application startup complete
+2025-02-02 03:34:16,267 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2025-02-02 03:34:16,267 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-02 03:34:16,268 - werkzeug - INFO -  * Restarting with stat
+2025-02-02 03:34:17,447 - root - INFO - Logging system initialized
+2025-02-02 03:34:17,447 - __main__ - INFO - Starting Bottle Classifier API...
+2025-02-02 03:34:17,448 - __main__ - INFO - Application startup complete
+2025-02-02 03:34:17,451 - werkzeug - WARNING -  * Debugger is active!
+2025-02-02 03:34:17,451 - werkzeug - INFO -  * Debugger PIN: 120-397-576
+2025-02-02 03:34:35,536 - werkzeug - INFO - 172.18.0.3 - - [02/Feb/2025 03:34:35] "GET /health HTTP/1.1" 200 -
+2025-02-02 03:35:14,378 - app.routes.classifier - INFO - Successfully classified image: closed (0.81)
+2025-02-02 03:35:14,380 - werkzeug - INFO - 172.18.0.3 - - [02/Feb/2025 03:35:14] "POST /api/classify HTTP/1.1" 200 -
+2025-02-02 03:38:54,238 - root - INFO - Logging system initialized
+2025-02-02 03:38:54,238 - __main__ - INFO - Starting Bottle Classifier API...
+2025-02-02 03:38:54,239 - __main__ - INFO - Application startup complete
+2025-02-02 03:38:54,246 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2025-02-02 03:38:54,246 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-02 03:38:54,246 - werkzeug - INFO -  * Restarting with stat
+2025-02-02 03:38:55,339 - root - INFO - Logging system initialized
+2025-02-02 03:38:55,339 - __main__ - INFO - Starting Bottle Classifier API...
+2025-02-02 03:38:55,339 - __main__ - INFO - Application startup complete
+2025-02-02 03:38:55,342 - werkzeug - WARNING -  * Debugger is active!
+2025-02-02 03:38:55,342 - werkzeug - INFO -  * Debugger PIN: 120-397-576
+2025-02-02 03:39:43,512 - werkzeug - INFO - 172.18.0.3 - - [02/Feb/2025 03:39:43] "GET /health HTTP/1.1" 200 -
+2025-02-02 03:39:50,848 - app.routes.classifier - INFO - Successfully classified image: closed (0.92)
+2025-02-02 03:39:50,848 - werkzeug - INFO - 172.18.0.3 - - [02/Feb/2025 03:39:50] "POST /api/classify HTTP/1.1" 200 -
+2025-02-02 03:40:49,201 - werkzeug - INFO - 172.18.0.3 - - [02/Feb/2025 03:40:49] "GET /health HTTP/1.1" 200 -
+2025-02-02 03:41:04,361 - app.routes.classifier - INFO - Successfully classified image: closed (0.82)
+2025-02-02 03:41:04,361 - werkzeug - INFO - 172.18.0.3 - - [02/Feb/2025 03:41:04] "POST /api/classify HTTP/1.1" 200 -
+2025-02-02 03:41:27,020 - app.routes.classifier - INFO - Successfully classified image: open (0.61)
+2025-02-02 03:41:27,020 - werkzeug - INFO - 172.18.0.3 - - [02/Feb/2025 03:41:27] "POST /api/classify HTTP/1.1" 200 -
