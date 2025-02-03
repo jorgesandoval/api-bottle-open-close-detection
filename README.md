@@ -203,11 +203,11 @@ The ResNet-18 (Residual Network with 18 layers) is a deep convolutional neural n
 ### Why Use ResNet-18 Instead of Object Detection Models?
 For classifying **open vs. closed bottles**, using object detection models such as **YOLO, Detectron, EfficientDet, or RetinaNet** would be inefficient. Here’s why:
 
-1️⃣ **Task Simplicity**
+1. **Task Simplicity**
 - Object detection models are designed for **locating and classifying multiple objects** in an image, while this task is a simple **binary classification** problem.
 - Using a detection model would introduce unnecessary computational overhead.
 
-2️⃣ **Model Complexity & Performance**
+2. **Model Complexity & Performance**
 
 | Model         | Purpose                     | Complexity | Suitability for Open/Closed Classification |
 |--------------|-----------------------------|------------|--------------------------------------|
@@ -220,15 +220,15 @@ For classifying **open vs. closed bottles**, using object detection models such 
 - **ResNet-18** is significantly **lighter** than object detection models and provides **sufficient accuracy** for classification.
 - Object detection models require **bounding box annotations**, which are unnecessary in this case.
 
-3️⃣ **Training & Inference Speed**
+3. **Training & Inference Speed**
 - Object detection models require **more computational power**.
 - **ResNet-18** is optimized for **fast training and inference** on CPU/GPU, making it ideal for deployment.
 
-4️⃣ **Data Requirements**
+4. **Data Requirements**
 - Object detection models require **annotated bounding boxes**, increasing labeling effort.
 - ResNet-18 only needs **labeled images**, simplifying dataset preparation.
 
-5️⃣ **Interpretability & Fine-tuning**
+5. **Interpretability & Fine-tuning**
 - ResNet-18 is easier to interpret and **fine-tune on new datasets**.
 - Object detection models involve complex region proposals, making fine-tuning harder.
 
