@@ -68,7 +68,7 @@ This is the hardware that was used to train the ResNet18 Model.
 - **GPU:** 10-core Apple GPU (Metal-optimized for ML tasks)
 - **Neural Engine:** 16-core (accelerates model inference)
 - **Memory:** 24GB unified RAM (high bandwidth, shared across CPU/GPU)
-- **Storage:** Up to 2TB SSD (faster data loading for large datasets)
+- **Storage:** 256 GB 
 
 ---
 
@@ -82,15 +82,10 @@ The project is structured into multiple components to ensure modularity, scalabi
 │   ├── logs
 │   └── src
 │       ├── app
-│       │   ├── __pycache__
 │       │   ├── models
 │       │   ├── routes
-│       │   │   └── __pycache__
 │       │   ├── services
-│       │   │   └── __pycache__
 │       │   └── utils
-│       │       └── __pycache__
-│       └── bottle_classifier.egg-info
 ├── docs
 │   ├── images
 │   └── samples
@@ -121,11 +116,8 @@ The project is structured into multiple components to ensure modularity, scalabi
 │   ├── logs
 │   └── src
 ├── tests
-│   └── __pycache__
 └── utils
     └── test_images
-
-47 directories
 ```
 ### **Backend**
 Contains the core logic of the API, including models, routes, and services:
