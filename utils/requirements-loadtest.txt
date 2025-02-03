@@ -1,0 +1,4 @@
+# requirements-loadtest.txt
+locust>=2.15.1
+python-dateutil>=2.8.2
+requests>=2.31.0
