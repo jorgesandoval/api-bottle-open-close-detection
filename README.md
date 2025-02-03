@@ -1,4 +1,4 @@
-# Bottle Classifier using Pytorch and ResNet
+# Bottle Open/Close Classifier using Pytorch and ResNet
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![GitHub Stars](https://img.shields.io/github/stars/jorgesandoval/iotthreat-classification-ensemble.svg)
@@ -9,7 +9,7 @@
 ![Banner](./docs/images/bottleclassifierbanner.png)
 
 ## 📖 Table of Contents
-- [Bottle-Classifier-using-PyTorch-and-ResNet](#bottle-classifier-using-pytorch-and-resnet)
+- [Bottle-Open-Close-Classifier-using-PyTorch-and-ResNet](#bottle-classifier-using-pytorch-and-resnet)
   - [📖 Table of Contents](#-table-of-contents)
   - [📌 Overview](#-overview)
   - [💻 Hardware](#-hardware)
