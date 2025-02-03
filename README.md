@@ -496,7 +496,7 @@ The choice of **MongoDB** for logging ensures that large amounts of classificati
 ![ResNet-18 Architecture](./docs/images/bottleclassifierscalability.png)
 
 
-#### 2. Database Design
+### Database Design
 - **Database Type:** **MongoDB (NoSQL)** to handle unstructured image metadata and classification logs.
 - **Schema Design:**
 ```json
