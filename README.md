@@ -160,14 +160,16 @@ Contains utility scripts and test images for debugging and validation.
 
 The dataset contains 3,640 images of open bottles and 4,949 images of closed bottles. To help you understand the image types suitable for training your own model, ten sample images of each category (open/closed) are available in the `docs/samples` directory.
 
+---
+
 ## 🖼️ Data Augmentation
 
-### 1. Region of Interest (ROI) Extraction
+### Region of Interest (ROI) Extraction
 * Algorithm extracts top 30% of bottle images using formula: *height_crop = original_height × 0.3*
 * Preserves original width and aspect ratio
 * Focuses specifically on the bottle cap region critical for classification
 
-### 2. Augmentation Techniques
+### Augmentation Techniques
 * **Geometric Transformations**:
     * Rotation: ±10 degrees with 70% probability
     * Horizontal flipping with 50% probability
@@ -181,13 +183,13 @@ The dataset contains 3,640 images of open bottles and 4,949 images of closed bot
     * Optical distortion (limit: 0.05)
     * Grid distortion (5-step transformation)
 
-### 3. Dataset Partitioning
+### Dataset Partitioning
 * Training Set: 70% (full augmentation)
 * Validation Set: 15% (limited augmentation)
 * Test Set: 15% (no augmentation)
 * Maintains class balance across all splits
 
-### 4. Quality Control
+### Quality Control
 * Format support: JPEG (95% quality) and PNG (level 6 optimization)
 * Maximum dimension: 4096 pixels
 * Color space: 24-bit RGB
@@ -266,9 +268,11 @@ For classifying **open vs. closed bottles**, using object detection models such 
 
 Monitor `model/logs/training.log` for progress. After completion, your trained model will be ready for use in the backend service.
 
+---
+
 ## 📄 API Documentation
 
-### 1. Health Check Endpoint
+###  Health Check Endpoint
 ```http
 GET /health
 ```
@@ -282,7 +286,7 @@ Checks if the API service is running properly.
 }
 ```
 
-### 2. Classify Bottle Endpoint
+###  Classify Bottle Endpoint
 ```http
 POST /classify
 ```
@@ -345,7 +349,7 @@ Analyzes an uploaded image and determines if the bottle is open or closed.
 }
 ```
 
-###  3. Usage Examples
+###  Usage Examples
 
 #### cURL
 ```bash
@@ -367,18 +371,13 @@ with open(image_path, 'rb') as f:
 print(response.json())
 ```
 
-### 4. Rate Limiting and Usage
-- Free tier limitations apply
-- Service may have cold starts after 15 minutes of inactivity
-- First request might take longer due to service warm-up
-
-### 5. Error Handling
+### Error Handling
 The API implements robust error handling:
 - Validates image format and size before processing
 - Provides clear error messages for common issues
 - Logs errors for debugging purposes
 
-### 6. Status Codes
+### Status Codes
 - 200: Successful request
 - 400: Bad request (invalid input)
 - 500: Server error
