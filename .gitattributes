@@ -1,0 +1,12 @@
+# Force all *.md files to be considered as Markdown
+*.md linguist-language=Markdown
+
+# Treat *.txt as Markdown
+*.txt linguist-language=Markdown
+
+# If there's a directory "docs" which is being picked up as roff, treat it as documentation
+docs/* linguist-documentation
+
+# Force a folder's contents to be recognized as, say, Python
+src/**/*.py linguist-language=Python
+

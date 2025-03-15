@@ -58,6 +58,7 @@ coverage.xml
 .spyderproject
 .spyproject
 .ropeproject
+.idea
 
 # -------------------------------------------------
 # Ignore specific data directories inside the model folder
